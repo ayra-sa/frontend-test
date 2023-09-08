@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@layer components {
+  .label {
+    @apply font-semibold text-sm text-neutral-600
+  }
+  .input {
+    @apply border border-neutral-300 focus:outline-blue-500 rounded-lg py-2 px-3 w-full
+  }
+}
