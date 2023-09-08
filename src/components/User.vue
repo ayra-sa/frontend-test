@@ -1,7 +1,7 @@
 <template>
-  <section class="min-h-screen flex flex-col place-content-center items-center">
-    <div class="w-3/5">
-      <div class="flex items-center justify-between">
+  <section class="min-h-screen flex flex-col py-5 place-content-center items-center">
+    <div class="w-4/5 md:w-3/5">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-7 md:mb-1">
         <h1 class="text-5xl mb-5 tracking-wider font-bold">Welcome, {{ getUsername() }}</h1>
 
         <button class="font-semibold text-base transition duration-300 hover:underline" @click="logout">
